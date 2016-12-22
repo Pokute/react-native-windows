@@ -57,7 +57,6 @@ namespace ReactNative.DevSupport
             _jsBundleFile = jsBundleFile;
             _jsAppBundleName = jsAppBundleName;
             _devSettings = new DevInternalSettings(this);
-            _devSettings.DebugServerHost = "localhost:8081";
             _devServerHelper = new DevServerHelper(_devSettings);
             ReloadSettings();
         }
